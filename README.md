@@ -1,2 +1,2 @@
-**To access tasks faster click the link**
+**To access ****TASKS**** faster click the link**
 https://annsshanto.github.io/Elevate-Labs-Tasks/
