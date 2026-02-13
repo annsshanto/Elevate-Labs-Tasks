@@ -1,16 +1,1 @@
-From: PayPal Security <paypal-alert@secure-paypal-login.xyz>
-To: user@gmail.com
-Subject: Urgent Action Required – Verify Your Account
 
-Dear Customer,
-
-We detected unusual activity on your PayPal account.
-
-To avoid suspension, please verify your account immediately by clicking the link below:
-
-https://www.paypal.com/security
-
-Failure to verify within 24 hours will result in permanent limitation of your account.
-
-Thank you,
-PayPal Security Team
