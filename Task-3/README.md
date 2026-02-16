@@ -22,8 +22,8 @@ Perform a basic vulnerability assessment on a local Kali Linux system using Ness
 
 ## Installation & Setup
 
-wget https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.x.x-debian10_amd64.deb
-sudo dpkg -i Nessus-10.x.x-debian10_amd64.deb
-sudo apt --fix-broken install -y
-sudo systemctl start nessusd
+wget https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.x.x-debian10_amd64.deb  
+sudo dpkg -i Nessus-10.x.x-debian10_amd64.deb  
+sudo apt --fix-broken install -y  
+sudo systemctl start nessusd  
 sudo systemctl enable nessusd
