@@ -33,20 +33,20 @@ sudo systemctl enable nessusd
 ## 6. Critical Vulnerabilities
 
 ### Vulnerability 1
-- **Name:** Ruby RACK DoS Vulnerability  
+- **Name:** Ruby RACK 2.2.14 DoS Vulnerability  
 - **Severity:** High
 - **CVE:** CVE-2025-46727  
-- **Description:**   The version of the RACK Ruby library installed on the remote host is prior to 2.2.14 / 3.0.16 / 3.1.14 . It is, therefore, affected by a DoS vulnerability where an attacker can trigger denial of service by sending specifically crafted HTTP requests, which can cause memory exhaustion or pin CPU resources, stalling or crashing the Rack server. This results in full service disruption until the affected worker is restarted.
+- **Description:** The version of the RACK Ruby library installed on the remote host is prior to 2.2.14 / 3.0.16 / 3.1.14 . It is, therefore, affected by a DoS                        vulnerability where an attacker can trigger denial of service by sending specifically crafted HTTP requests, which can cause memory exhaustion                      or pin resources, stalling or crashing the Rack server. This results in full service disruption until the affected worker is restarted.
 - **Impact:**  Remote attackers can crash or freeze Ruby-based web services, causing denial of service and service downtime.
 - **Solution:**  Upgrade to RACK version 2.2.14 / 3.0.16 / 3.1.14 or later.
 
 ### Vulnerability 2
-- **Name:**  
-- **Severity:** High  
-- **CVE:**  
-- **Description:** 
-- **Impact:**  
-- **Solution:**  
+- **Name:** Ruby REXML 3.3.3 Dos Vulnerability
+- **Severity:** Medium  
+- **CVE:** CVE-2025-58767
+- **Description:** The version of the REXML Ruby library installed on the remote host is 3.3.3 prior to 3.4.2. It is, therefore, affected by a DoS vulnerability as                    referenced in GHSA-c2f4-jgmc-q2r5 advisory.
+- **Impact:** Malformed XML input can crash or freeze Ruby applications, causing denial of service.
+- **Solution:** Upgrade to REXML version 3.4.2 or later. 
 
 ---
 
@@ -56,7 +56,6 @@ sudo systemctl enable nessusd
 - **Screenshot 2:** Vulnerability List  
 - **Screenshot 3:** Vulnerability Details  
 
-> Place your images below:
 
 ```markdown
 ![Scan Overview](screenshots/scan_overview.png)
