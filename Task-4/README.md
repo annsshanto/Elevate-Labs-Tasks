@@ -31,7 +31,7 @@ Firewall status shows **active**, confirming UFW is enabled.
 
 sudo ufw status numbered  
 
-![UFW status numbered](screenshots/ufw_status_numbered)  
+![UFW status numbered](screenshots/ufw_status_numbered.png)  
 
 Displays all existing firewall rules with numbering.
 
@@ -45,6 +45,56 @@ sudo ufw status numbered
 ![UFW telnet block](screenshots/telnet_block.png)  
 
 This rule blocks inbound traffic on port 23 (Telnet).
+
+---
+
+## Step 4: Test the Block Rule
+
+telnet localhost 23  
+
+![Telnet connection refused](screenshots/telnet_connection_refused.png)  
+
+This confirms that port 23 is successfully blocked.
+
+---
+
+## Step 5: Allow SSH Port (22)
+
+sudo ufw allow 22  
+sudo ufw status numbered  
+
+![Allow SSH](screenshots/ssh_allow.png)
+
+This ensures SSH access remains available.
+
+---
+
+## Step 6: Remove Test Block Rule
+
+Delete rule :  
+sudo ufw delete <rule_number>  
+sudo ufw status
+
+![UFW disable](screenshots/ufw_disable_1.png)
+
+Port 23 no longer appears.
+
+----
+
+## How Firewall Filters Traffic
+
+UFW is a frontend for iptables that filters incoming and outgoing packets based on defined rules.
+Each packet is checked against rules in order and matched with actions such as:  
+
+- ALLOW – permits traffic
+- DENY – silently blocks traffic
+- REJECT – blocks and sends response
+
+Firewalls reduce attack surface by restricting unnecessary services and allowing only trusted communication.
+
+
+
+
 
 
 
