@@ -33,18 +33,18 @@ sudo systemctl enable nessusd
 ## 6. Critical Vulnerabilities
 
 ### Vulnerability 1
-- **Name:**  
-- **Severity:** Critical  
-- **CVE:** CVE-XXXX-XXXX  
-- **Description:**  
-- **Impact:**  
-- **Solution:**  
+- **Name:** Ruby RACK DoS Vulnerability  
+- **Severity:** High
+- **CVE:** CVE-2025-46727  
+- **Description:**   The version of the RACK Ruby library installed on the remote host is prior to 2.2.14 / 3.0.16 / 3.1.14 . It is, therefore, affected by a DoS vulnerability where an attacker can trigger denial of service by sending specifically crafted HTTP requests, which can cause memory exhaustion or pin CPU resources, stalling or crashing the Rack server. This results in full service disruption until the affected worker is restarted.
+- **Impact:**  Remote attackers can crash or freeze Ruby-based web services, causing denial of service and service downtime.
+- **Solution:**  Upgrade to RACK version 2.2.14 / 3.0.16 / 3.1.14 or later.
 
 ### Vulnerability 2
 - **Name:**  
 - **Severity:** High  
-- **CVE:** CVE-XXXX-XXXX  
-- **Description:**  
+- **CVE:**  
+- **Description:** 
 - **Impact:**  
 - **Solution:**  
 
