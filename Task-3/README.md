@@ -26,4 +26,40 @@ wget https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.x.x-d
 sudo dpkg -i Nessus-10.x.x-debian10_amd64.deb  
 sudo apt --fix-broken install -y  
 sudo systemctl start nessusd  
-sudo systemctl enable nessusd
+sudo systemctl enable nessusd  
+
+---  
+
+## 6. Critical Vulnerabilities
+
+### Vulnerability 1
+- **Name:**  
+- **Severity:** Critical  
+- **CVE:** CVE-XXXX-XXXX  
+- **Description:**  
+- **Impact:**  
+- **Solution:**  
+
+### Vulnerability 2
+- **Name:**  
+- **Severity:** High  
+- **CVE:** CVE-XXXX-XXXX  
+- **Description:**  
+- **Impact:**  
+- **Solution:**  
+
+---
+
+## 7. Screenshots
+
+- **Screenshot 1:** Scan Overview  
+- **Screenshot 2:** Vulnerability List  
+- **Screenshot 3:** Vulnerability Details  
+
+> Place your images below:
+
+```markdown
+![Scan Overview](screenshots/scan_overview.png)
+![Vulnerability List](screenshots/vuln_list.png)
+![Vulnerability Detail](screenshots/vuln_detail.png)
+
