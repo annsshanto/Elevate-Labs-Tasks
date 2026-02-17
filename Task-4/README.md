@@ -21,5 +21,8 @@ sudo apt install ufw -y
 sudo ufw enable  
 sudo ufw status  
 
+![UFW enabled status](screenshots/ufw_enable.png)  
+
+
   
 
