@@ -23,6 +23,34 @@ sudo ufw status
 
 ![UFW enabled status](screenshots/ufw_enable.png)  
 
+Firewall status shows **active**, confirming UFW is enabled.
+
+---
+
+## Step 2: View Current Firewall Rules
+
+sudo ufw status numbered  
+
+![UFW status numbered](screenshots/ufw_status_numbered)  
+
+Displays all existing firewall rules with numbering.
+
+---
+
+## Step 3: Block Telnet Port (23)
+
+sudo ufw deny 23  
+sudo ufw status numbered  
+
+![UFW telnet block](screenshots/telnet_block.png)  
+
+This rule blocks inbound traffic on port 23 (Telnet).
+
+
+
+
+
+
 
   
 
