@@ -52,12 +52,16 @@ sudo systemctl enable nessusd
 
 ## 7. Screenshots
 
-- **Screenshot 1:** Scan Overview  
-- **Screenshot 2:** Vulnerability One  
-- **Screenshot 3:** Vulnerability Two  
-
-
+- **Screenshot 1:** Scan Overview
 ![Scan Overview](screenshots/scan_overview.png)
+ 
+- **Screenshot 2:** Vulnerability One
 ![Vulnerability List](screenshots/vuln_1.png)
+  
+- **Screenshot 3:** Vulnerability Two  
 ![Vulnerability Detail](screenshots/vuln_2.png)
+
+
+
+
 
