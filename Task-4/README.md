@@ -16,8 +16,10 @@ Configure and test basic firewall rules to allow or block network traffic using 
 
 ## Step 1: Install and Enable UFW
 
-sudo apt update
-sudo apt install ufw -y
-sudo ufw enable
-sudo ufw status
+sudo apt update  
+sudo apt install ufw -y  
+sudo ufw enable  
+sudo ufw status  
+
+  
 
