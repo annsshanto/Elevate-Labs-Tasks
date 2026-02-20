@@ -15,9 +15,9 @@ To analyze how password complexity affects security by testing different types o
 
 | Password | Type |
 |--------|------|
-| password | Very Weak |
-| Password123 | Weak |
-| P@ssw0rd123 | Medium |
+| monkey | Very Weak |
+| monkey123 | Weak |
+| Monkey@123 | Medium |
 | T7!kR#9@Lp2$Q | Strong |
 
 ---
