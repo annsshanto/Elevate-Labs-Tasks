@@ -44,34 +44,37 @@ Clicked blue shark fin icon.
 
 Visited:
 - https://google.com
+  
 
 
 ### 4. Stop Capture
 
 Clicked red stop button.
 
-![]()
+![stoped capture](screenshots/capture_stopped.png)
 
 
 ### 5. Apply Filters and Identified Protocols
 
  - http:
 
-![]()
+![http](screenshots/http.png)
 
  - dns:
 
-![]()
+![dns](screenshots/dns.png)
 
 
  - tcp:
 
-![]()
+![tcp](screenshots/tcp.png)
 
 
  ### 6.Export Capture
 
 File → Save As → capture.pcap
+
+![svae pcap](screenshots/save_pcap.png)
 
 ---
 
