@@ -19,3 +19,10 @@ Capture live network traffic using Wireshark, identify multiple protocols, apply
 - sudo usermod -aG wireshark $USER
 - reboot
 
+---
+
+## Procedure
+1. Launch Wireshark
+   wireshark
+
+Selected active interface (eth0).
