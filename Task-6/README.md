@@ -24,30 +24,30 @@ To analyze how password complexity affects security by testing different types o
 
 ## 🔍 Step 2: Test Passwords
 
-### Password: password
+### Password: monkey
 Strength: Very Weak  
 Feedback: Too short, common word  
 
 Screenshot:  
-![password_test](screenshots/password.png)
+![password_test](screenshots/very_weak.png)
 
 ---
 
-### Password: Password123
+### Password: monkey123
 Strength: Weak  
 Feedback: Add symbols and more length  
 
 Screenshot:  
-![password123](screenshots/password123.png)
+![password123](screenshots/weak.png)
 
 ---
 
-### Password: P@ssw0rd123
+### Password: monkey@123
 Strength: Medium  
 Feedback: Increase length  
 
 Screenshot:  
-![passw0rd](screenshots/passw0rd.png)
+![passw0rd](screenshots/medium.png)
 
 ---
 
