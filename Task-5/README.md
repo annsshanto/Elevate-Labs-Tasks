@@ -22,7 +22,16 @@ Capture live network traffic using Wireshark, identify multiple protocols, apply
 ---
 
 ## Procedure
-1. Launch Wireshark
-   wireshark
 
+### 1. Launch Wireshark
+   - wireshark
+  
 Selected active interface (eth0).
+
+![]()
+
+### 2. Start Capture
+
+Clicked blue shark fin icon. 
+
+![]()
