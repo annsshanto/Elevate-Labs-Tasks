@@ -18,7 +18,7 @@ chrome://extensions/
 ```
 
 Screenshot:
-![Extensions List](extensions-list.png)
+![Extention URL](screenshots/url.png)
 
 ---
 
@@ -26,21 +26,24 @@ Screenshot:
 
 | Extension Name | Developer | Permissions | Suspicious? |
 |---------------|-----------|------------|-------------|
-| XYZ Tool | Unknown Dev | Read all site data | YES |
-| Grammarly | Grammarly Inc | Limited | NO |
+| Ad Block | Unknown dev | Read all site data | YES |
+| Dark Reader | Dark Reader Ltd | Limited | NO |
+| Chromium PDF | Chrome | No special permission | NO |  
+
+[extention](screenshots/extention.png)
 
 ---
 
 ## Step 3: Suspicious Extension Identified
 
-Extension: XYZ Tool  
+Extension: Ad Block  
 Reason:
 - Unknown publisher
 - Excessive permissions
 - Low rating
 
 Screenshot:
-![Permissions](extension-permissions.png)
+![Permissions](screenshots/extention_permission.png)
 
 ---
 
@@ -50,7 +53,7 @@ Action:
 Removed via extension manager.
 
 Screenshot:
-![Removed](extension-removed.png)
+![Removed](screenshots/extention_remove.png)
 
 ---
 
