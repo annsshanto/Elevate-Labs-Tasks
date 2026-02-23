@@ -17,7 +17,6 @@ URL:
 chrome://extensions/
 ```
 
-Screenshot:
 ![Extention URL](screenshots/url.png)
 
 ---
@@ -42,7 +41,6 @@ Reason:
 - Excessive permissions
 - Low rating
 
-Screenshot:
 ![Permissions](screenshots/extention_permission.png)
 
 ---
@@ -52,7 +50,6 @@ Screenshot:
 Action:
 Removed via extension manager.
 
-Screenshot:
 ![Removed](screenshots/extention_remove.png)
 
 ---
