@@ -29,7 +29,7 @@ chrome://extensions/
 | Dark Reader | Dark Reader Ltd | Limited | NO |
 | Chromium PDF | Chrome | No special permission | NO |  
 
-[extention](screenshots/extention.png)
+![extention](screenshots/extention.png)
 
 ---
 
