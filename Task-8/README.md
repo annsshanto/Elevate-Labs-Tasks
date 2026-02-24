@@ -12,112 +12,73 @@ Understand the role of VPNs in protecting privacy and securing communication by 
 ---
 
 ## Step 1: Update System
+- sudo apt update && sudo apt upgrade -y
 
-sudo apt update && sudo apt upgrade -y
-Step 2: Install Required Packages
-sudo apt install -y curl gpg
-Step 3: Add ProtonVPN GPG Key
-curl -fsSL https://repo.protonvpn.com/debian/public_key.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/protonvpn.gpg
+## Step 2: Install ProtonVPN
+- wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.6_all.deb
+- sudo dpkg -i protonvpn-stable-release_1.0.6_all.deb
+- sudo apt update
+- sudo apt install proton-vpn-gnome-desktop -y
 
-Verify key exists:
+## Step 3: Login to ProtonVPN  
+Opened ProtonVPN application and logged in with free account.
 
-ls /etc/apt/trusted.gpg.d/protonvpn.gpg
-Step 4: Add ProtonVPN Repository
-echo "deb https://repo.protonvpn.com/debian stable main" | sudo tee /etc/apt/sources.list.d/protonvpn-stable.list
-Step 5: Update Repository List
-sudo apt update
-Step 6: Install ProtonVPN Application
-sudo apt install -y proton-vpn-gnome-desktop
-Step 7: Launch ProtonVPN
-protonvpn-app
-Step 8: Login to ProtonVPN
+![login](screenshots/login.png)  
 
-Login using ProtonVPN free account.
+## Step 4: Connect to VPN  
+Connected to nearest free server.
+![connectionvpn](screenshots/connection.png)  
 
-Screenshot:
+## Step 5: Verify IP Address
+### Before VPN:  
+curl ifconfig.me  
+![ip before](screenshots/ip_before.png)  
 
-screenshots/login.png
-Step 9: Connect to VPN Server
+### After VPN:
+curl ifconfig.me  
+![ip after](screenshots/ip_after.png)
 
-Select a free server and click Quick Connect.
+## Step 6: Verify Encrypted Browsing
+Opened HTTPS website and confirmed lock icon.
+![lock icon](screenshots/lock_icon.png)  
 
-Screenshot:
-
-screenshots/connected.png
-Step 10: Check IP Address Before VPN
-curl ifconfig.me
-
-Screenshot:
-
-screenshots/ip-before.png
-Step 11: Check IP Address After VPN
-curl ifconfig.me
-
-Screenshot:
-
-screenshots/ip-after.png
-Step 12: Verify Encrypted Browsing
-
-Open HTTPS website:
-
-firefox https://example.com
-
-Confirm lock icon in address bar.
-
-Screenshot:
-
-screenshots/https-lock.png
-Step 13: Speed Test Without VPN
-
-Disconnect VPN.
-
+## Step 7: Speed Test Comparison
+### Without VPN:
 speedtest-cli
+![speed before](screenshots/speed_before.png)
 
-Screenshot:
-
-screenshots/speed-no-vpn.png
-Step 14: Speed Test With VPN
-
-Connect VPN.
-
+### With VPN:
 speedtest-cli
+![speed after](screenshots/speed_after.png)
 
-Screenshot:
+##Step 8: Disconnect VPN
 
-screenshots/speed-vpn.png
-Step 15: Disconnect VPN
-
-Click Disconnect inside ProtonVPN app.
-
-Screenshot:
-
-screenshots/disconnected.png
 Observations
 
-Public IP changes after VPN connection.
+VPN changes public IP address.
 
-HTTPS websites show encrypted connection.
+Traffic is encrypted.
 
-Internet speed decreases slightly when VPN is enabled.
+Internet speed decreases slightly when VPN is active.
 
 VPN Benefits
 
-Hides real IP address
+Hides IP address
 
-Encrypts internet traffic
+Encrypts data
 
-Protects data on public Wi-Fi
+Protects on public Wi-Fi
 
-Improves privacy
+Prevents tracking
 
 VPN Limitations
 
 Reduced speed
 
-Free servers limited
+Free plans have server limits
 
-Must trust VPN provider
+VPN provider must be trusted
 
 Conclusion
 
-VPNs help secure communication and improve privacy by encrypting data and masking the user’s identity.
+VPNs significantly improve privacy and security by encrypting internet traffic and masking user identity.
