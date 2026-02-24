@@ -14,6 +14,7 @@ Understand the role of VPNs in protecting privacy and securing communication by 
 ## Step 1: Update System
 - sudo apt update && sudo apt upgrade -y
   
+---
 
 ## Step 2: Install ProtonVPN
 - wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.6_all.deb
@@ -21,18 +22,20 @@ Understand the role of VPNs in protecting privacy and securing communication by 
 - sudo apt update
 - sudo apt install proton-vpn-gnome-desktop -y
 
-  
+---
+
 ## Step 3: Login to ProtonVPN  
 Opened ProtonVPN application and logged in with free account.
-
 ![login](screenshots/login.png)  
 
-  
+---
+
 ## Step 4: Connect to VPN  
-Connected to nearest free server.
+Connected to nearest free server.  
 ![connectionvpn](screenshots/connection.png)  
 
-  
+---
+
 ## Step 5: Verify IP Address
 ### Before VPN:  
 curl ifconfig.me  
@@ -43,12 +46,14 @@ curl ifconfig.me
 curl ifconfig.me  
 ![ip after](screenshots/ip_after.png)  
 
-  
+---
+
 ## Step 6: Verify Encrypted Browsing
 Opened HTTPS website and confirmed lock icon.
 ![lock icon](screenshots/lock_icon.png)  
 
-  
+---
+
 ## Step 7: Speed Test Comparison
 ### Without VPN:
 speedtest-cli
@@ -59,7 +64,8 @@ speedtest-cli
 speedtest-cli
 ![speed after](screenshots/speed_after.png)  
 
-  
+---
+
 ## Step 8: Disconnect VPN
 
 ![disconnected](screenshots/disconnected.png)  
