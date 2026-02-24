@@ -25,7 +25,7 @@ Understand the role of VPNs in protecting privacy and securing communication by 
 ---
 
 ## Step 3: Login to ProtonVPN  
-Opened ProtonVPN application and logged in with free account.
+Opened ProtonVPN application and logged in with free account.  
 ![login](screenshots/login.png)  
 
 ---
@@ -56,12 +56,12 @@ Opened HTTPS website and confirmed lock icon.
 
 ## Step 7: Speed Test Comparison
 ### Without VPN:
-speedtest-cli
+speedtest-cli  
 ![speed before](screenshots/speed_before.png)  
 
   
 ### With VPN:
-speedtest-cli
+speedtest-cli  
 ![speed after](screenshots/speed_after.png)  
 
 ---
