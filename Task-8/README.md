@@ -66,7 +66,7 @@ speedtest-cli
 
 ---
 
-# Observations
+## Observations
 - VPN changes public IP address.
 - Traffic is encrypted.
 - Internet speed decreases slightly when VPN is active.
